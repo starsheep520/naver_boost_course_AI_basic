@@ -1,6 +1,3 @@
-import matplotlib.pyplot as plt
-
-
 #5
 
 import matplotlib.pyplot as plt
