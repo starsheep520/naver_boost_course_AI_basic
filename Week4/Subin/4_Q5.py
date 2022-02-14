@@ -25,4 +25,4 @@ plt.plot(names, values)
 
 plt.show()
 
-#데이터 라벨이 미표기되는 
+#데이터 라벨이 미표기되는 문제
