@@ -6,20 +6,20 @@ import numpy as np
 names = ['group_a', 'group_b', 'group_c']
 values = [1, 10, 100]
 
+
 #plt.figure: 새로운 figure 생성
 plt.figure(figsize =(9,3))
 
 #막대그래프
+plt.subplot(131)
 plt.bar(names, values,)
 
 #점 그래프
-plt.figure()
+plt.subplot(132)
 plt.scatter(names, values)
 
 #선 그래프
-plt.figure()
+plt.subplot(133)
 plt.plot(names, values)
 
 plt.show()
-
-#데이터 라벨이 미표기되는 문제
