@@ -12,7 +12,6 @@ df = pd.DataFrame(data, index=idx, columns=col)
 
 col_round_6 = pd.Series([11, 15, 13, 17, 19], index=idx)
 df["round_6"] = col_round_6
-print(df)
 
 print(df.describe().loc[["mean", "max", "min"]])
 
